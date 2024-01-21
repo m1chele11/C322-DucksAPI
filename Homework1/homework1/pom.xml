@@ -35,7 +35,7 @@
                 <configuration>
                     <includes>
                         <include>
-                            edu.iu.mbarrant.ProblemsTest
+                            Part2.ProblemsTest
                         </include>
                     </includes>
                     <excludes>
