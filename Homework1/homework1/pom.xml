@@ -37,6 +37,9 @@
                         <include>
                             Part2.ProblemsTest
                         </include>
+                        <include>
+                            Part3.InventoryTest
+                        </include>
                     </includes>
                     <excludes>
                         <exclude></exclude>
