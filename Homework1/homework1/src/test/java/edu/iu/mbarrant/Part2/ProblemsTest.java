@@ -1,4 +1,4 @@
-package Part2;
+package edu.iu.mbarrant.Part2;
 
 import org.junit.jupiter.api.Test;
 
@@ -8,30 +8,27 @@ class ProblemsTest {
 
     @Test
     void problem1() {
-            Problems solution = new Problems();
+        Problems solution = new Problems();
 
-            // Test case 1: There exists a pair that adds up to the target
-            int[] nums1 = {2, 7, 11, 15};
-            int target1 = 9;
-            int[] expected1 = {0, 1};
-            assertArrayEquals(expected1, solution.problem1(nums1, target1));
+        // Test case 1: There exists a pair that adds up to the target
+        int[] nums1 = {2, 7, 11, 15};
+        int target1 = 9;
+        int[] expected1 = {0, 1};
+        assertArrayEquals(expected1, solution.problem1(nums1, target1));
 
-            // Test case 2: No pair adds up to the target
-            int[] nums2 = {3, 2, 4};
-            int target2 = 8;
-            assertNull(solution.problem1(nums2, target2));
+        // Test case 2: No pair adds up to the target
+        int[] nums2 = {3, 2, 4};
+        int target2 = 8;
+        assertNull(solution.problem1(nums2, target2));
 
-            // Test case 3: Edge case with an empty array
-            int[] nums3 = {};
-            int target3 = 5;
-            assertNull(solution.problem1(nums3, target3));
-        }
-
-
+        // Test case 3: Edge case with an empty array
+        int[] nums3 = {};
+        int target3 = 5;
+        assertNull(solution.problem1(nums3, target3));
+    }
 
     @Test
     void binarySearch() {
-
         Problems BinarySearch = new Problems();
         // Test case 1: Square root of a perfect square
         int x1 = 25;
@@ -52,7 +49,6 @@ class ProblemsTest {
 
     @Test
     void longestCommonPrefix() {
-
         Problems solution = new Problems();
 
         // Test case 1: Common prefix exists
@@ -70,7 +66,6 @@ class ProblemsTest {
 
     @Test
     void romanToInt() {
-
         Problems Solution = new Problems();
 
         // Test case 1: Valid Roman numeral
@@ -80,12 +75,10 @@ class ProblemsTest {
         // Test case 2: Another valid Roman numeral
         String roman2 = "IX";
         assertEquals(9, Problems.romanToInt(roman2));
-
     }
 
     @Test
     void isValid() {
-
         Problems solution = new Problems();
 
         // Test case 1: Valid brackets
@@ -101,10 +94,8 @@ class ProblemsTest {
         assertFalse(Problems.isValid(s3));
     }
 
-
     @Test
-    public void testMergeTwoLists() {
-
+    void mergeTwoLists() {
         Problems.ListNode l1 = new Problems.ListNode(1);
         l1.next = new Problems.ListNode(2);
         l1.next.next = new Problems.ListNode(4);
@@ -119,9 +110,9 @@ class ProblemsTest {
         assertEquals(1, l2.val);
         assertEquals(3, l2.next.val);
     }
+
     @Test
     void plusOne() {
-
         Problems solution = new Problems();
 
 

@@ -1,4 +1,4 @@
-package Part3;
+package edu.iu.mbarrant.C322Homework2;
 
 public class Guitar {
     private String serialNumber;
@@ -9,11 +9,14 @@ public class Guitar {
     String backWood;
     String topWood;
 
-
-
-    public Guitar(String serialNumber, double price) {
+    public Guitar(String serialNumber, double price, String builder, String model, String type, String backWood, String topWood) {
         this.serialNumber = serialNumber;
         this.price = price;
+        this.builder = builder;
+        this.model = model;
+        this.type = type;
+        this.backWood = backWood;
+        this.topWood = topWood;
     }
 
     public String getSerialNumber() {

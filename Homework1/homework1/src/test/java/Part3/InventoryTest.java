@@ -1,5 +1,6 @@
 package Part3;
 
+import edu.iu.mbarrant.Part3.Inventory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -7,7 +8,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import static org.junit.jupiter.api.Assertions.*;
 

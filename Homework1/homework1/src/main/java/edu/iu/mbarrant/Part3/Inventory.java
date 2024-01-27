@@ -1,4 +1,4 @@
-package Part3;
+package edu.iu.mbarrant.Part3;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
