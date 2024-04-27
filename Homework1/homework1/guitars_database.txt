@@ -1,3 +1,0 @@
-123456,999.99,Builder1,Model1,Type1,BackWood1,TopWood1
-12334,69.69,Builder2,Model2,Type2,BackWood2,TopWood2
-123444,509.99,Builder3,Model3,Type3,BackWood3,TopWood3

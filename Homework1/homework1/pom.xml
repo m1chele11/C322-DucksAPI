@@ -35,10 +35,7 @@
                 <configuration>
                     <includes>
                         <include>
-                            edu.iu.mbarrant.Part2.ProblemsTest
-                        </include>
-                        <include>
-                            edu.iu.mbarrant.Part3.InventoryTest
+                            edu.iu.mbarrant.Part3
                         </include>
                     </includes>
                     <excludes>
